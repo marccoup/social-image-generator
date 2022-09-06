@@ -1,0 +1,21 @@
+{
+    "name": "marccoup/social-image-generator",
+    "description": "Generate simple images suitable for open graph protocol sharing",
+    "keywords": ["social", "open graph", "image", "image generator"],
+    "require": {
+        "php": "^8.1",
+        "intervention/image": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marccoup\\SocialImageGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marc Coupland",
+            "email": "marc@marccoup.uk"
+        }
+    ]
+}
