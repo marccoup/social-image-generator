@@ -37,7 +37,7 @@ $generator    = SocialImageGenerator::make(
 // Do stuff with $generator
 ```
 
-Refer to [the documentation](https://image.intervention.io/v2/introduction/configuration#driver-configuration) on driver
+Refer to [their documentation](https://image.intervention.io/v2/introduction/configuration#driver-configuration) on driver
 configuration for more information.
 
 ### Fonts
@@ -137,7 +137,7 @@ $generator->generate();
 ```
 
 Usually using the `$generator->generate()` method will be all you need but if you wish to write the sections of the 
-image in a different order, want multiple lattices, or do anything else with the image you can interact with it in the 
+image in a different order, want multiple lattices, or to do anything else with the image you can interact with it in the 
 following ways:
 
 ```php
