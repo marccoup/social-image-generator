@@ -2,6 +2,7 @@
     "name": "marccoup/social-image-generator",
     "description": "Generate simple images suitable for open graph protocol sharing",
     "keywords": ["social", "open graph", "image", "image generator"],
+    "homepage": "https://github.com/marccoup/social-image-generator",
     "require": {
         "php": "^8.1",
         "intervention/image": "^2.7"
@@ -15,7 +16,8 @@
     "authors": [
         {
             "name": "Marc Coupland",
-            "email": "marc@marccoup.uk"
+            "email": "marc@marccoup.uk",
+            "homepage": "https://marccoup.uk"
         }
     ]
 }
