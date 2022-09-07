@@ -296,14 +296,20 @@ class SocialImageGenerator
     {
         $this->start();
 
-        $this->image->text($this->footerText, $this->safeAreaBoundary, $this->height - $this->safeAreaBoundary,
+        $textHeight = $this->footerTextSize * count(explode(PHP_EOL, $this->footerText));
+
+        $this->image->text(
+            $this->footerText,
+            $this->safeAreaBoundary,
+            $this->height - $this->safeAreaBoundary - $textHeight,
             function (AbstractFont $font) {
                 $font->align('left')
                      ->valign('top')
                      ->file($this->fontFile)
                      ->size($this->footerTextSize)
                      ->color($this->footerTextColorHex);
-            });
+            }
+        );
 
         return $this;
     }
